@@ -1,0 +1,70 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+    background-color: rgb(255, 243, 226);
+}
+button{
+    color: white !important;
+}
+.carde>img{
+    height: 300px;
+    width: 350px;
+}
+.second>img{
+    height: 300px;
+    width: 500px;
+}
+.carde {
+    margin: 9%;
+   
+    border: 1px solid black;
+   
+}
+.second{
+    height: 300px;
+border:1px solid white;
+justify-self: center;
+display: flex;
+align-items: center;
+
+color: white;
+background-color: black;
+}
+.second>div{
+    margin: 15px;
+}
+.icons{
+    display: flex;
+   
+    padding-bottom:15%;
+    gap: 20px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+#price-total{
+    font-size: x-large;
+    font-style: italic;
+    border: 1px solid black;
+    margin: 50px 10% 0 10%;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-item>img {
+    height: 700px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+}
